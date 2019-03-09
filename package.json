@@ -1,0 +1,30 @@
+{
+  "name": "scrapbox",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix --ext .ts,.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uguisu-an/scrapbox.git"
+  },
+  "keywords": [],
+  "author": "Ii Masamitu <arcana278@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uguisu-an/scrapbox/issues"
+  },
+  "homepage": "https://github.com/uguisu-an/scrapbox#readme",
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^1.3.1",
+    "jest": "^24.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4"
+  }
+}
