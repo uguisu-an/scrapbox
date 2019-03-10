@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,md}\"",
-    "lint": "eslint . --fix --ext .js",
+    "lint": "eslint . --ext .js",
     "test": "jest"
   },
   "repository": {
