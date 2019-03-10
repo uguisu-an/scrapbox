@@ -10,8 +10,5 @@
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint"
   ],
-  "parserOptions": {
-    "sourceType": "module"
-  },
   "rules": {}
 }
