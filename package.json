@@ -3,7 +3,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --fix --ext .ts,.js",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "lint": "eslint . --ext .js",
     "test": "jest"
   },
   "repository": {
