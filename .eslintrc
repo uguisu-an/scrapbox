@@ -5,8 +5,13 @@
   },
   "extends": [
     "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
   ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
   "rules": {}
 }
